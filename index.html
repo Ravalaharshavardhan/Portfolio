@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravala Harshavardhan - Portfolio</title>
+    <meta name="description" content="Personal Portfolio of Ravala Harshavardhan - MS Computer Science at Wright State University">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo-section">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <span>RH</span>
+                        </div>
+                        <div class="logo-pulse"></div>
+                    </div>
+                    <div class="logo-text">
+                        <div class="name-primary">Ravala</div>
+                        <div class="name-secondary">Harshavardhan</div>
+                    </div>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-container">
+                    
+                    <div class="profile-overlay"></div>
+                </div>
+                
+                <h1 class="hero-title">Ravala Harshavardhan</h1>
+                <p class="hero-subtitle">MS Computer Science Student</p>
+                <p class="hero-description">
+                    Passionate about developing innovative solutions using cutting-edge technologies. 
+                    Currently pursuing Master's in Computer Science at Wright State University with expertise in 
+                    cloud computing, machine learning, and full-stack development.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Download Resume</button>
+                    <button class="btn btn-secondary" onclick="scrollToContact()">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I'm a passionate MS Computer Science student at Wright State University with a strong foundation in 
+                software development, cloud computing, and machine learning. I enjoy tackling complex problems and 
+                building innovative solutions that make a real impact.
+            </p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Java</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">AWS</div>
+                <div class="skill-item">TensorFlow</div>
+                <div class="skill-item">OpenCV</div>
+                <div class="skill-item">Git</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">Kubernetes</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop&crop=center" alt="Cotton Leaf Disease ID">
+                        <div class="project-overlay project-overlay-blue"></div>
+                        <div class="project-title-overlay">Cotton Leaf Disease ID</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Machine learning application for identifying diseases in cotton leaves using computer vision and deep learning techniques. Achieved 95% accuracy in disease classification.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">95% Accuracy</div>
+                            <div class="metric">1000+ Images</div>
+                            <div class="metric">5 Disease Types</div>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-small btn-primary">Code</button>
+                            <button class="btn btn-small btn-outline">Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop&crop=center" alt="Vehicle Speed Detection">
+                        <div class="project-overlay project-overlay-green"></div>
+                        <div class="project-title-overlay">Vehicle Speed Detection</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Real-time vehicle speed detection system using computer vision algorithms. Implemented for traffic monitoring and speed limit enforcement applications.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">YOLO</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">Real-time Processing</div>
+                            <div class="metric">90% Detection Rate</div>
+                            <div class="metric">4 Vehicle Types</div>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-small btn-primary">Code</button>
+                            <button class="btn btn-small btn-outline">Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop&crop=center" alt="AWN Graph Labs">
+                        <div class="project-overlay project-overlay-purple"></div>
+                        <div class="project-title-overlay">AWN Graph Labs</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Interactive graph visualization and analysis platform for academic research. Features advanced algorithms for network analysis and data visualization.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">10K+ Nodes</div>
+                            <div class="metric">Interactive UI</div>
+                            <div class="metric">Multiple Algorithms</div>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-small btn-primary">Code</button>
+                            <button class="btn btn-small btn-outline">Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Cloud Architect Intern</h3>
+                        <p class="company">Amazon Web Services (AWS)</p>
+                        <p class="duration">May 2023 - July 2023</p>
+                        <ul>
+                            <li>Designed and implemented scalable cloud infrastructure solutions</li>
+                            <li>Optimized system performance resulting in 30% cost reduction</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Web Developer</h3>
+                        <p class="company">Phoenix Global</p>
+                        <p class="duration">April 2023 - June 2023</p>
+                        <ul>
+                            <li>Developed responsive web applications using modern frameworks</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Master of Science in Computer Science</h3>
+                    <p class="university">Wright State University</p>
+                    <p class="duration">2023 - 2025</p>
+                    <p class="gpa">GPA: 3.8/4.0</p>
+                </div>
+                <div class="education-card">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p class="university">GITAM University</p>
+                    <p class="duration">2019 - 2023</p>
+                    <p class="gpa">GPA: 8.5/10.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">
+                I'm always open to discussing new opportunities and interesting projects. Let's connect!
+            </p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+            
+            <div class="social-links">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ravala Harshavardhan. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
